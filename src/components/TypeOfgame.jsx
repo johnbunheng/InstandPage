@@ -1,12 +1,12 @@
 import React from 'react';
-import Type1 from "../img/1.png";
-import Type2 from "../img/2.png";
-import Type3 from "../img/3.png";
-import Type4 from "../img/4.png";
-import Type5 from "../img/10.png";
-import Type6 from "../img/6.png";
-import Type7 from "../img/7.png";
-import Type8 from "../img/8.png";
+import Type1 from "../img/1.PNG";
+import Type2 from "../img/2.PNG";
+import Type3 from "../img/3.PNG";
+import Type4 from "../img/4.PNG";
+import Type5 from "../img/10.PNG";
+import Type6 from "../img/6.PNG";
+import Type7 from "../img/7.PNG";
+import Type8 from "../img/8.PNG";
 
 import video1 from "../img/02-10morion1.mp4";
 
