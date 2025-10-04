@@ -35,7 +35,6 @@ const TypeOfgame = () => {
           loop 
           autoPlay 
           muted 
-          controls
            >
         <source src={video1} type="video/mp4"/>
       </video>
