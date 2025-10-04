@@ -1,6 +1,4 @@
 import React from 'react';
-// import Video from "./Video";
-
 import Type1 from "../img/1.png";
 import Type2 from "../img/2.png";
 import Type3 from "../img/3.png";
