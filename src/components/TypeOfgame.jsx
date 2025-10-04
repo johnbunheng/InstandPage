@@ -43,10 +43,10 @@ const TypeOfgame = () => {
 
       {/* Categories Section */}
       <div className="bg-white p-4 rounded-lg shadow-md">
-        <h3 id="Formatfont" className="text-4xl underline text-sky-950 font-semibold mb-4 text-center">
+        <h3 id="Header" className="text-4xl underline text-sky-950 font-semibold mb-4 text-center">
           ប្រភេទហ្គេមទាំងអស់
         </h3>
-        <div className="flex overflow-x-auto gap-4 py-2 ">
+        <div className="flex sm:justify-center overflow-x-auto gap-4 py-2 ">
           {categories.map((category, index) => (
             <div
               key={index}
