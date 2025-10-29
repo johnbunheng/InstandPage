@@ -42,7 +42,7 @@ const TypeOfgame = () => {
 
       {/* Categories Section */}
       <div className="bg-gray-700 p-4 mt-7 rounded-lg shadow-md">
-        <h3 id="Header" className="text-3xl text-white mb-4 text-center">
+        <h3 id="Header" className="text-2xl text-white mb-4 text-center">
           ប្រភេទហ្គេមទាំងអស់
         </h3>
         <div className="flex sm:justify-center overflow-x-auto gap-4 py-2 ">
