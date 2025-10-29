@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react"
-import Img1 from "../img/15.jpg";
-import Img2 from "../img/CoverAgent.jpg";
+import Img1 from "../img/CoverSBC369.jpg";
+import Img2 from "../img/BusinessPartner.jpg";
 import Img3 from "../img/16.jpg";
 
 
@@ -31,7 +31,7 @@ const slides = [
 
 const Slide = ({image, bgColor }) => (
     <div
-        className={`h-[300px] flex flex-col items-center justify-center text-white ${bgColor} rounded-lg shadow-xl bg-cover bg-center transition-all duration-500`}
+        className={`h-[135px] flex flex-col items-center justify-center text-white ${bgColor} rounded-lg shadow-xl bg-cover bg-center transition-all duration-500`}
         style={{ backgroundImage: `url(${image})` }}
     >
   

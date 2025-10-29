@@ -2,5 +2,8 @@
   font-family: "Kantumruy Pro", sans-serif;
 }
 #Header{
-   font-family: "Angkor", serif;
+   font-family: "Kantumruy Pro", serif;
+}
+.bg{
+   background-image: url("./img/bg.jpg");
 }

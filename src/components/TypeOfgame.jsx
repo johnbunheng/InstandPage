@@ -8,10 +8,11 @@ import Type6 from "../img/6.PNG";
 import Type7 from "../img/7.PNG";
 import Type8 from "../img/8.PNG";
 
+import TypeMatch from "../img/30-25.jpg"
 import video1 from "../img/02-10morion1.mp4";
 
 const categories = [
-  { name: 'SPORT', icon: Type1 },
+  { name: 'SPORT', icon: Type1 ,link:"https://t.me/sbc369service"},
   { name: 'BOXING', icon: Type3 },
   { name: 'COCKFIGHT', icon: Type8 },
   { name: 'SEXY CASINO', icon: Type2},
@@ -24,25 +25,24 @@ const categories = [
 
 const TypeOfgame = () => {
   return (
-    <main className="flex-1 p-4 -mt-10 overflow-y-auto">
+    <main className="flex-1 p-4 -mt-12 ">
       {/* Banner Carousel Section - Placeholder */}
       <h1 id='Header' 
-      className='flex p-4 underline text-pink-900 font-semibold text-4xl justify-center'>កាប្រកួតថ្ងៃនេះ</h1>
-      <div className="w-full h-[300px] mt-9 md:h-80  rounded-lg mb-6 flex items-center justify-center">
-       {/* <img src="" alt="" />
-       <img src="" alt="" /> */}
-      <video width="300" height="300" 
+      className='flex p-4 underline text-white font-semibold text-4xl justify-center'>កាប្រកួតថ្ងៃនេះ</h1>
+      <div className="w-80 h-[352px] mt-5 md:h-80 rounded-lg mb-6 flex items-center m-auto">
+       <img src={TypeMatch} alt="" />
+      {/* <video width="300" height="300" 
           loop 
           autoPlay 
           muted 
            >
         <source src={video1} type="video/mp4"/>
-      </video>
+      </video> */}
       </div>
 
       {/* Categories Section */}
-      <div className="bg-white p-4 rounded-lg shadow-md">
-        <h3 id="Header" className="text-4xl underline text-sky-950 font-semibold mb-4 text-center">
+      <div className="bg-gray-700 p-4 mt-10 rounded-lg shadow-md">
+        <h3 id="Header" className="text-4xl text-white font-semibold mb-4 text-center">
           ប្រភេទហ្គេមទាំងអស់
         </h3>
         <div className="flex sm:justify-center overflow-x-auto gap-4 py-2 ">
@@ -51,12 +51,14 @@ const TypeOfgame = () => {
               key={index}
               className="flex-shrink-0 flex flex-col items-center text-center w-24"
             >
-              <img
+             <a href={category.link}>
+               <img
                 src={category.icon}
                 alt={category.name}
                 className="w-16 h-16 rounded-lg object-cover"
               />
-              <span className="mt-2 text-sm font-medium">{category.name}</span>
+             </a>
+              <span className="mt-2  text-white text-sm font-medium">{category.name}</span>
             </div>
           ))}
         </div>

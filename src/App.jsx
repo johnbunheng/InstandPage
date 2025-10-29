@@ -6,9 +6,9 @@ import TypeOfgame from './components/TypeOfgame'
 
 function App() {
   return (
-    <div>
+    <div className='bg '>
       <Navigation/>
-      <div className='ml-5 mr-5 mt-28'>
+      <div className='ml-5 mr-5 pt-20'>
         <Slide/>
       </div>
       <TypeOfgame/>
