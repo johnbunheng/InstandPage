@@ -2,7 +2,11 @@
   font-family: "Kantumruy Pro", sans-serif;
 }
 #Header{
-   font-family: "Kantumruy Pro", serif;
+   font-family: "Khmer OS Koulen", serif;
+}
+#Header1{
+   font-family:Impact, sans-serif;
+   letter-spacing: 1px;
 }
 .bg{
    background-image: url("./img/bg.jpg");

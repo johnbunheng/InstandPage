@@ -27,9 +27,9 @@ const TypeOfgame = () => {
   return (
     <main className="flex-1 p-4 -mt-12 ">
       {/* Banner Carousel Section - Placeholder */}
-      <h1 id='Header' 
-      className='flex p-4 underline text-white font-semibold text-4xl justify-center'>កាប្រកួតថ្ងៃនេះ</h1>
-      <div className="w-80 h-[352px] mt-5 md:h-80 rounded-lg mb-6 flex items-center m-auto">
+      <h1 id='Header1' 
+      className='flex p-4 underline text-white text-4xl justify-center'>MATCH DAY</h1>
+      <div className="w-80 h-[352px] mt-3 md:h-80 rounded-lg mb-6 flex items-center m-auto">
        <img src={TypeMatch} alt="" />
       {/* <video width="300" height="300" 
           loop 
@@ -41,8 +41,8 @@ const TypeOfgame = () => {
       </div>
 
       {/* Categories Section */}
-      <div className="bg-gray-700 p-4 mt-10 rounded-lg shadow-md">
-        <h3 id="Header" className="text-4xl text-white font-semibold mb-4 text-center">
+      <div className="bg-gray-700 p-4 mt-7 rounded-lg shadow-md">
+        <h3 id="Header" className="text-3xl text-white mb-4 text-center">
           ប្រភេទហ្គេមទាំងអស់
         </h3>
         <div className="flex sm:justify-center overflow-x-auto gap-4 py-2 ">
@@ -58,7 +58,7 @@ const TypeOfgame = () => {
                 className="w-16 h-16 rounded-lg object-cover"
               />
              </a>
-              <span className="mt-2  text-white text-sm font-medium">{category.name}</span>
+              <span className="mt-2 text-white text-xs font-medium">{category.name}</span>
             </div>
           ))}
         </div>
