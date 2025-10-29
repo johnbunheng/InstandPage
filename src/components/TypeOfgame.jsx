@@ -14,7 +14,7 @@ import video1 from "../img/02-10morion1.mp4";
 const categories = [
   { name: 'SPORT', icon: Type1 ,link:"https://t.me/sbc369service"},
   { name: 'BOXING', icon: Type3 },
-  { name: 'COCKFIGHT', icon: Type8 },
+  { name: 'COCKFIGHT', icon: Type8 ,link:"https://m.me/620926397781198"},
   { name: 'SEXY CASINO', icon: Type2},
   { name: 'K99 CASINO', icon: Type4 },
   { name: 'KENO', icon: Type5},
