@@ -8,7 +8,7 @@ import Type6 from "../img/6.PNG";
 import Type7 from "../img/7.PNG";
 import Type8 from "../img/8.PNG";
 
-import TypeMatch from "../img/30-25.jpg"
+import TypeMatch from "../img/26-25-1.jpg"
 import video1 from "../img/02-10morion1.mp4";
 
 const categories = [
