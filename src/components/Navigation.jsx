@@ -11,39 +11,39 @@ const Navigation = () => {
 
     return (
         <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1 py-5">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1 py-4">
                 {/* Logo Section */}
-                <a href="/" className="flex items-center rtl:space-x-reverse">
+                <a href="/" className="flex mx-1 items-center rtl:space-x-reverse">
                     <img 
                         src={SCB} 
-                        className=" w-24 sm:w-40" 
+                        className="w-24 sm:w-40" 
                         alt="SCB Logo" 
                     />
                 </a>
 
                 {/* Buttons and Hamburger Menu Section (Order 2) */}
-                <div className="flex items-center md:order-2 space-x-2 sm:space-x-3 rtl:space-x-reverse">
+                <div className="flex items-center md:order-2 space-x-2 sm:space-x-3 ">
                     
                     {/* Button 1: Messenger */}
                     <a 
                         id="Formatfont" 
                         href="https://m.me/681071755099465" 
-                        className="text-white flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition duration-150"
+                        className="text-white flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-1 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition duration-150"
                         title=" Messenger"
                     >
-                        <FaFacebookMessenger className="text-lg sm:text-xl mr-1" />
-                        <span className="sm:inline">Messenger</span> 
+                        <FaFacebookMessenger className="text-sm sm:text-xl mr-1" />
+                        <span className="sm:inline text-xs">Messenger</span> 
                     </a>
 
                     {/* Button 2: Telegram */}
                     <a 
                         id="Formatfont" 
                         href="https://t.me/sbc369service" 
-                        className="text-white flex items-center bg-[#2AABEE] hover:bg-[#1a8fcb] focus:ring-4 focus:outline-none focus:ring-[#56c6ff] font-medium rounded-lg text-sm px-1 py-2.5 text-center transition duration-150"
+                        className="text-white flex items-center bg-[#2AABEE] hover:bg-[#1a8fcb] focus:ring-4 focus:outline-none focus:ring-[#56c6ff] font-medium rounded-lg text-sm px-2 py-2.5 text-center transition duration-150"
                         title=" Telegram"
                     >
-                        <FaTelegram className="text-lg sm:text-xl mr-1" />
-                        <span className="sm:inline">Telegram</span>
+                        <FaTelegram className="text-sm sm:text-xl mr-1" />
+                        <span className="sm:inline text-xs">Telegram</span>
                     </a>
                     
                     {/* Mobile Menu Toggle Button (Hamburger Icon) */}
