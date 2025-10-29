@@ -32,7 +32,7 @@ const Navigation = () => {
                         title=" Messenger"
                     >
                         <FaFacebookMessenger className="text-lg sm:text-xl mr-1" />
-                        <span className="sm:inline">ចុះឈ្មោះ!</span> 
+                        <span className="sm:inline">Messenger</span> 
                     </a>
 
                     {/* Button 2: Telegram */}
